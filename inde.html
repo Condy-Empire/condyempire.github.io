@@ -1,94 +1,256 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nwokoro Chidinma Onyinyechukwu | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Professional portfolio of Nwokoro Chidinma Onyinyechukwu, Data Annotator and Data Entry Specialist.">
+  <title>Nwokoro Chidinma Onyinyechukwu | Data Annotator</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-  <!-- Header -->
+
+  <!-- Navigation -->
   <header>
-    <nav>
-      <h1>Nwokoro Chidinma Onyinyechukwu</h1>
-      <ul>
+    <nav class="container">
+      <div class="logo">Chidinma Nwokoro</div>
+
+      <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#samples">Portfolio Samples</a></li>
+        <li><a href="#samples">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Hero Section -->
+
+  <!-- Hero -->
   <section class="hero">
-    <img src="assets/profile.jpg" alt="Profile Picture">
-    <h2>Data Annotator | Data Entry Specialist</h2>
-    <p>📍 Lagos, Nigeria</p>
-    <a href="#samples" class="btn">View My Work</a>
-  </section>
+    <div class="hero-content">
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am a detail-oriented professional specializing in data annotation and data entry. 
-      With strong skills in administrative support, customer service, and web research, 
-      I bring accuracy and efficiency to every project I handle.
-    </p>
-  </section>
+      <div class="profile-container">
+        <img src="./assets/profile.jpg" alt="Nwokoro Chidinma Onyinyechukwu">
+      </div>
 
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-      <li>Data Entry</li>
-      <li>Text Annotation</li>
-      <li>Image Annotation</li>
-      <li>Microsoft Word & Excel</li>
-      <li>Google Docs & Sheets</li>
-      <li>Customer Service</li>
-      <li>Administrative Support</li>
-      <li>Web Research</li>
-      <li>HTML/CSS & Web Design</li>
-    </ul>
-  </section>
+      <p class="intro">Hello, I'm</p>
 
-  <!-- Portfolio Samples -->
-  <section id="samples">
-    <h2>Portfolio Samples</h2>
-    <div class="project-grid">
-      <div class="project-card">
-        <img src="assets/samples/sample1.png" alt="Sample Project 1">
-        <h3>Text Annotation Sample</h3>
-        <p>A demonstration of structured text annotation for machine learning datasets.</p>
+      <h1>Nwokoro Chidinma Onyinyechukwu</h1>
+
+      <h2>Data Annotator & Data Entry Specialist</h2>
+
+      <p class="hero-text">
+        Detail-oriented professional skilled in data annotation, data entry,
+        web research, administrative support, customer service, and basic web design.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#samples" class="btn primary-btn">View My Work</a>
+        <a href="#contact" class="btn secondary-btn">Contact Me</a>
       </div>
-      <div class="project-card">
-        <img src="assets/samples/sample2.png" alt="Sample Project 2">
-        <h3>Image Annotation Sample</h3>
-        <p>Example of bounding box and labeling work for computer vision projects.</p>
-      </div>
-      <div class="project-card">
-        <img src="assets/samples/sample3.png" alt="Sample Project 3">
-        <h3>Data Entry Sample</h3>
-        <p>Accurate and organized data entry showcased in spreadsheets.</p>
-      </div>
+
+      <p class="location">📍 Lagos, Nigeria</p>
+
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:condyempire001@gmail.com">condyempire001@gmail.com</a></p>
-    <p>Location: Lagos, Nigeria</p>
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+
+      <p class="section-label">ABOUT ME</p>
+
+      <h2>Professional & Detail-Oriented</h2>
+
+      <p class="section-text">
+        I am a detail-oriented professional specializing in data annotation
+        and data entry. I have experience working with structured information,
+        text and image data, spreadsheets, web research, and administrative tasks.
+      </p>
+
+      <p class="section-text">
+        I focus on accuracy, consistency, organization, and meeting project
+        requirements while maintaining a high level of attention to detail.
+      </p>
+
+    </div>
   </section>
+
+
+  <!-- Skills -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+
+      <p class="section-label">MY SKILLS</p>
+
+      <h2>What I Can Do</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <span>📊</span>
+          <h3>Data Entry</h3>
+          <p>Accurate and organized data entry using spreadsheets and online tools.</p>
+        </div>
+
+        <div class="skill-card">
+          <span>📝</span>
+          <h3>Text Annotation</h3>
+          <p>Labeling and categorizing text data for machine learning datasets.</p>
+        </div>
+
+        <div class="skill-card">
+          <span>🖼️</span>
+          <h3>Image Annotation</h3>
+          <p>Image labeling and bounding-box annotation for computer vision projects.</p>
+        </div>
+
+        <div class="skill-card">
+          <span>💻</span>
+          <h3>Microsoft Office</h3>
+          <p>Microsoft Word, Excel and other productivity tools.</p>
+        </div>
+
+        <div class="skill-card">
+          <span>🔎</span>
+          <h3>Web Research</h3>
+          <p>Finding, organizing and verifying information online.</p>
+        </div>
+
+        <div class="skill-card">
+          <span>🌐</span>
+          <h3>Web Design</h3>
+          <p>Basic HTML, CSS and responsive website development.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Portfolio -->
+  <section id="samples" class="section">
+    <div class="container">
+
+      <p class="section-label">PORTFOLIO</p>
+
+      <h2>Sample Projects</h2>
+
+      <p class="section-text">
+        The projects below are practice samples created to demonstrate my
+        skills and understanding of data-related tasks.
+      </p>
+
+      <div class="project-grid">
+
+        <div class="project-card">
+
+          <img src="./assets/samples/sample1.png" alt="Text Annotation Sample">
+
+          <div class="project-content">
+            <span class="project-tag">DATA ANNOTATION</span>
+
+            <h3>Text Annotation Sample</h3>
+
+            <p>
+              A demonstration of structured text annotation and categorization
+              for machine learning datasets.
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="project-card">
+
+          <img src="./assets/samples/sample2.png" alt="Image Annotation Sample">
+
+          <div class="project-content">
+            <span class="project-tag">IMAGE ANNOTATION</span>
+
+            <h3>Image Annotation Sample</h3>
+
+            <p>
+              Example of image labeling and bounding-box annotation
+              for computer vision datasets.
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="project-card">
+
+          <img src="./assets/samples/sample3.png" alt="Data Entry Sample">
+
+          <div class="project-content">
+            <span class="project-tag">DATA ENTRY</span>
+
+            <h3>Data Entry Sample</h3>
+
+            <p>
+              A sample spreadsheet demonstrating accurate and organized
+              data entry and information management.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="contact-section">
+
+    <div class="container">
+
+      <p class="section-label">GET IN TOUCH</p>
+
+      <h2>Let's Work Together</h2>
+
+      <p>
+        I'm open to opportunities in data annotation, data entry,
+        administrative support, web research, and related roles.
+      </p>
+
+      <a class="email-button" href="mailto:condyempire001@gmail.com">
+        Email Me
+      </a>
+
+      <p class="contact-email">
+        condyempire001@gmail.com
+      </p>
+
+      <p>
+        📍 Lagos, Nigeria
+      </p>
+
+      <a
+        class="github-link"
+        href="https://github.com/cndyempire"
+        target="_blank"
+        rel="noopener noreferrer">
+        View My GitHub
+      </a>
+
+    </div>
+
+  </section>
+
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2026 Nwokoro Chidinma Onyinyechukwu. All rights reserved.</p>
+    <p>
+      © 2026 Nwokoro Chidinma Onyinyechukwu. All rights reserved.
+    </p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
+```
