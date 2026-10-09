@@ -129,11 +129,6 @@ img {
     border-radius: 12px;
     object-fit: cover;
 }
-/* Make all text black */
-body,
-body * {
-color: #000000;
-}
 
 .sample-gallery {
     display: grid;
