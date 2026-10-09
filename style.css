@@ -4,10 +4,11 @@ css
 }
 
 body {
-    margin: 0;
+    background: linear-gradient(135deg, #dbeafe, #f5d0fe, #c7d2fe);
     font-family: Arial, sans-serif;
-    background: #f1f5f9;
+    margin: 0;
     padding: 0;
+    color: #1e293b;
 }
 
 header {
