@@ -51,6 +51,7 @@ section {
     margin: 30px auto;
     padding: 30px;
     background: white;
+    color: #12345a;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
 }
